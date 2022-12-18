@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MADE Okine Sans PERSONAL USE Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MADE Okine Sans PERSONAL USE Regular'), url('fonts/MADEOkineSansPERSONALUSE-Regular.woff') format('woff');
+  }
+*{
+  font-family: 'MADE Okine Sans PERSONAL USE Regular';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
