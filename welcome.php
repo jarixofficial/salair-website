@@ -53,7 +53,6 @@
       </div>
     </nav>
   </div>
-  <h1>this site is <span>under construction.</span></h1>
-  <h3>in the meantime, you can check our <a href="login.php">login page.</a></h3>
+  <h1>welcome to <span>salesian airlines.</span> :)</h1>
 </body>
 </html>

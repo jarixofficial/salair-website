@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0));
+  color: #fff;
+  height: 80px;
+}
+nav .logo {
+  margin-left: 20px;
+}
+nav .logo img {
+  height: 40px;
+}
+nav .logocol {
+  margin-left: 20px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+nav .logocol:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+nav .logocol img {
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 27px;
+  margin-left: 250px;
+  white-space: nowrap
+}
+nav ul li {
+  margin-left: 20%;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #ccc;
+  font-size: 20px;
+  transition: 0.3s;
+}
+nav .menu {
+  margin-right: 27px;
+}
+nav .menu {
+  cursor: pointer;
+}
