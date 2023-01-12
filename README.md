@@ -3,5 +3,5 @@ remote repository for the salesian airlines peta
 # prerequisites
 xampp: https://www.apachefriends.org/
 # how to open locally
-open xampp, start apache and mysql modules
+open xampp, start apache and mysql modules<br>
 extract files into a folder in C:\xampp\htdocs
