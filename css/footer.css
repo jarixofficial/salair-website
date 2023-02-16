@@ -1,0 +1,22 @@
+footer{
+  font-family: 'Kanit', sans-serif;
+  text-align: center ;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-color: #111;
+  float: bottom;
+  bottom: 0;
+  width: 100%;
+  padding: 1%;
+  margin-top: 1%;
+}
+.footer{
+  transition:0.3s;
+  color: white;
+  cursor: pointer;
+}
+.footer:hover{
+transform: 0.3s;
+color: grey;
+}

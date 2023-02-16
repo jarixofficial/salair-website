@@ -5,6 +5,7 @@ nav {
   background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0));
   color: #fff;
   height: 80px;
+  width: 100%;
 }
 nav .logo {
   margin-left: 20px;
@@ -50,9 +51,9 @@ nav ul li a:hover {
   font-size: 20px;
   transition: 0.3s;
 }
-nav .menu {
+nav .help {
   margin-right: 27px;
 }
-nav .menu {
+nav .help {
   cursor: pointer;
 }

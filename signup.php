@@ -10,7 +10,7 @@
   <link rel="icon" href="img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap" rel="stylesheet">
   <style>
     body{
       background-image: url('img/bg-1.jpg');
@@ -46,8 +46,8 @@
 			<li><a href="#about">about us</a></li>
 			<li><a href="login.php">login</a></li>
 		</ul>
-		<div class="menu">
-			<img src="img/icons/menu.svg">
+		<div class="help">
+			<img src="img/icons/help.svg">
 			</div>
   </nav>
 	<h1 class="intro">A new passenger?&nbsp;<img src="img/icons/plane.svg" class="plane"></h1>
