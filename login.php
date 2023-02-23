@@ -43,7 +43,7 @@
 			<li><a href="#flightdetails">book a flight</a></li>
 			<li><a href="#manage">manage</a></li>
 			<li><a href="#travelinfo">travel info</a></li>
-			<li><a href="#about">about us</a></li>
+			<li><a href="aboutus.php">about us</a></li>
 			<li><a href="login.php">login</a></li>
 		</ul>
 		<div class="help">
