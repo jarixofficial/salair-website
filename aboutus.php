@@ -51,14 +51,13 @@ YOU CAN INCREASE THE FONT SIZE TO MAKE THE PAGE MORE LOADED (hehe)
       <a href="index.php"><img src="img/logocolor.svg" alt="Logo Colored" class="logocolor"></a>
     </div>
     <ul>
-      <li><a href="#flightdetails">book a flight</a></li>
-      <li><a href="#manage">manage</a></li>
-      <li><a href="#travelinfo">travel info</a></li>
+      <li><a href="index.php#flightdetails">book a flight</a></li>
+      <li><a href="travelinfo.php">travel info</a></li>
       <li><a href="#about">about us</a></li>
       <li><a href="login.php">login</a></li>
     </ul>
     <div class="help">
-      <img src="img/icons/help.svg">
+    <a href="faq.php"><img src="img/icons/help.svg"></a>
     </div>
   </nav>
   <div class="top">
@@ -100,7 +99,7 @@ YOU CAN INCREASE THE FONT SIZE TO MAKE THE PAGE MORE LOADED (hehe)
     As we are slowly starting to get our services back up, we are optimistic and hopeful for the future of our airline. We’ve had some discussions of expanding our service to other countries in east and southeast Asia somewhere down the line, and we hope that we will soon be able to connect people from around the world with the help of our airline company. It has always been in our interest to help people all over the world, and to help attain that vision, we’ve made our website. The internet has been growing at a rapid rate in recent time, so it is important that we make this website so we can keep up with our competition. We hope that you and many other people will enjoy our service and we hope that we will be able to make a positive impact on the world. As Don Bosco once said, Meliora Eligo!  “Choose the better wings!”
 </h3><br><br></div>
   <footer>
-    <h4><em>"choose the better wings!"</em><br><a href="#pp" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="#tos" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="#faq" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>
+    <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="tos.php" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php#" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>
   </footer>
   </body>
 </html>

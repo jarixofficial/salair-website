@@ -40,14 +40,13 @@
 		<a href="index.php"><img src="img/logocolor.svg" alt="Logo Colored" class="logocolor"></a>
 	</div>
 		<ul>
-			<li><a href="#flightdetails">book a flight</a></li>
-			<li><a href="#manage">manage</a></li>
-			<li><a href="#travelinfo">travel info</a></li>
+			<li><a href="index.php#flightdetails">book a flight</a></li>
+		<li><a href="travelinfo.php">travel info</a></li>
 			<li><a href="aboutus.php">about us</a></li>
 			<li><a href="login.php">login</a></li>
 		</ul>
 		<div class="help">
-			<img src="img/icons/help.svg">
+		<a href="faq.php"><img src="img/icons/help.svg"></a>
 			</div>
   </nav>
 	<h1 class="intro">A new passenger?&nbsp;<img src="img/icons/plane.svg" class="plane"></h1>

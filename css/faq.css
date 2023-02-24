@@ -1,29 +1,23 @@
-span{
-  color: gold;
-}
 .top{
   text-align: center;
   color: white;
   font-size: 48px;
-  margin-top: 12%;
-  margin-bottom: 12%;
+  margin-top: 5%;
   text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.book{
-  color: black;
-  text-align: center;
-  margin-top: 1%;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  background-color: white;
-  border-radius: 50px;
-  transition: 0.3s;
-  border: grey solid 1px;
+span{
+  color: gold;
 }
-.book:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin-top: 4.8%;
-  transition: 0.3s;
+ul li{
+  margin-left: 5px;
+}
+ul.list{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.list{
+  list-style-position: inside;
 }
 .content{
   text-align: justify;
@@ -43,26 +37,18 @@ span{
 hr{
   border: 2px solid gold;
 }
-.img1{
-  width: 300px;
-  height: auto;
-  float: right;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  border: black solid 3px;
-}
-.img2{
-  width: 400px;
+.img3{
+  width: 350px;
   height: auto;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
   border-radius: 20px;
   border: black solid 3px;
 }
-.img3{
-  width: 350px;
+.img2{
+  width: 450px;
   height: auto;
   float: right;
   margin-left: 20px;
@@ -71,6 +57,3 @@ hr{
   border-radius: 20px;
   border: black solid 3px;
 }
-.list {
-  list-style-position: inside;
- }

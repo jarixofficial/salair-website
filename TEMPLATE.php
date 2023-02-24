@@ -52,14 +52,13 @@ LINKED CSS FILE IS IN THE CSS FOLDER
       <a href="index.php"><img src="img/logocolor.svg" alt="Logo Colored" class="logocolor"></a>
     </div>
     <ul>
-      <li><a href="#flightdetails">book a flight</a></li>
-      <li><a href="#manage">manage</a></li>
-      <li><a href="#travelinfo">travel info</a></li>
+      <li><a href="index.php#flightdetails">book a flight</a></li>
+      <li><a href="travelinfo.php">travel info</a></li>
       <li><a href="aboutus.php">about us</a></li>
       <li><a href="login.php">login</a></li>
     </ul>
     <div class="help">
-      <img src="img/icons/help.svg">
+    <a href="faq.php"><img src="img/icons/help.svg"></a>
     </div>
   </nav>
   <div class="top">
@@ -101,7 +100,7 @@ LINKED CSS FILE IS IN THE CSS FOLDER
     </div><br>Vestibulum rhoncus urna ut porttitor dictum. Phasellus auctor porta metus, vel lacinia justo luctus ut. Donec consequat tortor odio, at pharetra ipsum ornare quis. Vestibulum lectus nunc, imperdiet sit amet felis id, elementum porta risus. Maecenas ornare arcu sit amet erat aliquam, eget pharetra urna pellentesque. Aenean placerat ex quis augue molestie, ac ornare augue blandit. Mauris nec erat nec massa luctus interdum.<br><br>Praesent vitae imperdiet purus, vel accumsan eros. Etiam faucibus justo tincidunt, sodales nunc at, pharetra quam. Quisque pretium tellus vel lobortis finibus. Nullam quis condimentum magna, quis sodales velit. Nulla vitae libero et nisi ultrices aliquam sit amet ut ipsum. Mauris urna magna, aliquet ut ex vitae, imperdiet scelerisque sem. Sed tempus commodo maximus. In felis sapien, placerat nec lacus sit amet, ultricies tempor justo. Vestibulum sit amet ultrices neque. Fusce condimentum mauris ac tincidunt sollicitudin. Phasellus fringilla arcu quis ipsum tempor tincidunt. In aliquam metus nec velit volutpat bibendum. Fusce ut aliquam metus, ac consectetur neque. Praesent nulla velit, volutpat ac lacus at, pulvinar porttitor eros.<br><br>Proin et blandit risus. Nam placerat commodo ligula, at ultrices neque egestas at. Etiam ornare est id commodo eleifend. Morbi facilisis ultrices lacus, a ullamcorper velit. Morbi tempor, nisi vitae feugiat luctus, sem neque condimentum nisi, sit amet pulvinar nisi ante vitae odio. Sed arcu elit, mollis a cursus id, hendrerit et felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget felis porta, tristique tellus eu, euismod lacus. Etiam at neque justo. Vivamus maximus bibendum justo sed condimentum.<br><br>Morbi venenatis elit suscipit libero iaculis vestibulum. Nullam rhoncus, quam fringilla maximus hendrerit, felis ligula molestie orci, sed aliquet lorem lorem at sem. Aenean elit turpis, feugiat in placerat sed, ultrices eu lacus. Vivamus ut feugiat arcu. Vivamus maximus sapien sit amet placerat fermentum. Sed lectus dui, tempus fermentum efficitur eu, congue vitae lacus. Donec pretium libero ac justo aliquam, non fringilla augue pretium. Maecenas euismod arcu dolor, ac luctus dui elementum nec. Etiam non metus vel odio pellentesque vestibulum sed ut mauris. Aenean luctus vitae magna ac ultricies. Donec in libero lobortis, luctus enim sed, pharetra mauris. Ut odio augue, scelerisque eget hendrerit ut, sollicitudin sed lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. In at ornare magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque eu velit tincidunt, consequat diam imperdiet, accumsan tellus.</h3>
   </div>
   <footer>
-    <h4><em>"choose the better wings!"</em><br><a href="#pp" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="#tos" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="#faq" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>
+    <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="tos.php" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>
   </footer>
   </body>
 </html>
