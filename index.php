@@ -55,10 +55,162 @@
   <div class="top">
     <h1>choose the <span>better wings!</span></h1>
   </div>
-  <div class="book" id="flightdetails"><br><br><br>
-    quick booking form under construction<br><br><br><br><br>
-  </div>
-  <div class="content">
+  <div class="book" id="flightdetails">
+      <style type="text/css">
+  span{
+    color:  gold;
+  }
+.register-photo {
+display: inline-flex;
+border: 5px solid;
+border-radius: 40px;
+border-color: white;
+margin: 20px;
+border: grey solid 1px;
+margin-left: 30px;
+transition: 0.3s;
+}
+.register-photo:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 1%;
+  transition: 0.3s;
+}
+.register-photo .form-container {
+display: table;
+height: 400px;
+width:1200px;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+text-align:  left;
+background-image:  url(img/whereto.png);
+background-size: 1600px;
+background-position: left;
+background-repeat: no-repeat;
+border-radius: 40px;
+}
+form {
+display: table-cell;
+height: 500px;
+width: 500px;
+background-color: white;
+color: black;
+border-radius: 0px 40px 40px 0px;
+padding-top: 2%;
+padding-bottom: 1%;
+}
+.form-group{
+  font-size: 16px;
+}
+.where{
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-size: 48px;
+  margin-top: -50px;
+}
+input{
+  border: 0;
+  border-bottom: 2px solid;
+  width: 90%;
+  transition: 0.3s;
+}
+input:hover{
+  border-color: gold;
+}
+input:focus{
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid;
+  transition: 0.3s;
+  border-color: gold;
+}
+select{
+  border: 0;
+  border-bottom: 2px solid;
+  width: 35%;
+  transition: 0.3s;
+}
+select:hover{
+  border-color: gold;
+}
+select:focus{
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid  ;
+  transition: 0.3s;
+  border-color: gold;
+}
+.submit{
+  transition: 0.3s;
+}
+.submit:hover{
+  cursor: pointer;
+  font-size: 120%;
+  transition: 0.3s;
+  border-color: gold;
+}
+label, input{
+  margin-left: 5%;
+}
+.radio{
+  margin-left: -39%;
+}
+.typeflight{
+  margin-left: -43%;
+}
+
+  </style>
+  <h1 class="where">now, where <span>to?</span></h1>
+  <div class="register-photo">
+  <div class="form-container">
+    <div class="register-photo"></div>
+    <form action="insert.php" method="POST">
+      <h2 class="text-center" style="font-size: 50px; text-align: center;">Fly with us!</h2>
+      <h4 style="text-align: center;">are you excited for another flight?</h4><br>
+<h2>
+        <div class="form-group">
+      <input  type="radio" id="oneway" name="flight" value="One-way" class="radio">
+      <label for="oneway" class="typeflight" >One-way</label>
+      <input type="radio" id="roundtrip" name="flight" value="Round-trip" class="radio" style="margin-left: -12%;">
+      <label for="roundtrip" class="typeflight">Round-trip</label><br>
+</div>
+<div class="form-group">
+      <label for="from">From:</label>
+        <select id="from" name="from" class="input">
+          <option value="Manila">Manila</option>
+          <option value="Clark">Clark</option>
+          <option value="Cebu ">Cebu</option>
+          <option value="Davao">Davao</option>
+        </select>
+      <label for="To" >To:</label>
+        <select id="to" name="to" class="input">
+          <option value="Manila">Manila</option>
+          <option value="Clark">Clark</option>
+          <option value="Cebu">Cebu</option>
+          <option value="Davao">Davao</option>
+        </select><br>
+</div>
+<div class="form-group">
+      <label for="departure">Departure:</label><br>
+        <input type="date" id="departure" name="departure" class="input"><br>
+        <label for="return">Return:</label><br>
+        <input type="date" id="return" name="return" class="input"><br>
+</div>
+<div class="form-group">
+        <label for="apax">Adults:</label><br>
+        <input type="number" id="apax" name="apax" min="1" max="20" class="input" placeholder="Ages 12 and above..."><br>
+        <label for="cpax">Children:</label><br>
+        <input type="number" id="cpax" name="cpax" min="0" max="20" class="input" placeholder="Ages 3-11..."><br>
+        <label for="ipax">Infants:</label><br>
+        <input type="number" id="ipax" name="ipax" min="0" max="20" class="input" placeholder="Ages 2 and below..."><br><br>
+</div>
+<div class="form-group">
+  <input  type="submit" name="submit" class="submit">
+</input></h2>
+</div>
+</h2>
+</form>
+    </div></div></div>
+<br><br><br><br><br>
+      <div class="content" style="color: black;">
     <h1><span>A new airline option for you and your family</span></h1>
     <div>
       <img src="https://static.politico.com/24/98/96722fea47878956c9165f30ae58/https-delivery.gettyimages.com/downloads/1358309391" class="img1">
