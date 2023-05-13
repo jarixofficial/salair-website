@@ -162,7 +162,7 @@ label, input{
   <div class="register-photo">
   <div class="form-container">
     <div class="register-photo"></div>
-    <form action="insert.php" method="POST">
+    <form action="insert.php" method="POST" onsubmit="return validateForm()">
       <h2 class="text-center" style="font-size: 50px; text-align: center;">Fly with us!</h2>
       <h4 style="text-align: center;">are you excited for another flight?</h4><br>
 <h2>
@@ -201,6 +201,38 @@ label, input{
         <input type="number" id="cpax" name="cpax" min="0" max="20" class="input" placeholder="Ages 3-11..."><br>
         <label for="ipax">Infants:</label><br>
         <input type="number" id="ipax" name="ipax" min="0" max="20" class="input" placeholder="Ages 2 and below..."><br><br>
+        <script>
+        function validateForm() {
+          var number1 = parseInt(document.getElementById("apax").value);
+          var number2 = parseInt(document.getElementById("cpax").value);
+          var number3 = parseInt(document.getElementById("ipax").value);
+
+          if (number1 + number2 + number3 === 0) {
+            alert("At least one field must have a non-zero value.");
+            return false;
+          } else if (number1 + number2 + number3 > 20) {
+            alert("The number of total passengers cannot exceed 20.");
+            return false;
+          }
+
+          var date1 = new Date(document.getElementById("departure").value);
+          var date2 = new Date(document.getElementById("return").value);
+
+          var currentDate = new Date();
+          currentDate.setHours(0, 0, 0, 0); // Set current date to the beginning of the day
+
+          if (date1 < currentDate) {
+            alert("Departure must be in the future.");
+            return false;
+          } else if (date2 <= date1) {
+            alert("Your return date must be ahead of your departure.");
+            return false;
+          }
+
+          return true; // Move the return true statement after the date validation code
+        }
+      </script>
+
 </div>
 <div class="form-group">
   <input  type="submit" name="submit" class="submit">
