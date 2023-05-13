@@ -6,6 +6,10 @@ nav {
   color: #fff;
   height: 80px;
   width: 100%;
+  position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10000;
 }
 nav .logo {
   margin-left: 20px;

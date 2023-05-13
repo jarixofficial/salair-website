@@ -319,39 +319,211 @@ li{
     </div></div></div>
 <br><br><br><br><br>
       <div class="content" style="color: black;">
-    <h1><span>A new airline option for you and your family</span></h1>
+    <h1><span>A new airline option for you and your family</span></h1><hr><br>
     <div>
-      <img src="https://static.politico.com/24/98/96722fea47878956c9165f30ae58/https-delivery.gettyimages.com/downloads/1358309391" class="img1">
+      <img src="img/family.jpg" class="img1">
     </div>
     <!-- INSERT CONTENT HERE -->
-    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac finibus nisi, pulvinar blandit nisi. Nullam sit amet consectetur dui, id laoreet nibh. Sed et massa dui. Etiam sit amet magna in neque interdum lobortis eget eu ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla rutrum venenatis urna in euismod. Vivamus rhoncus, ante vitae consequat fermentum, elit diam dignissim lorem, eget sodales magna nunc eget quam. Vivamus sit amet odio venenatis lorem aliquet aliquam. Vestibulum eu finibus quam, vitae eleifend elit. Maecenas sed viverra eros. Sed lacinia, justo id pellentesque fringilla, urna turpis elementum ex, sit amet mattis turpis nulla vel eros. Donec euismod elit id leo congue vulputate. Nulla vel arcu quis sapien vulputate varius ac nec nisi. Proin a iaculis lacus.
+    <h2>Welcome to Salesian Airlines!
     <br><br>
-    Vestibulum rhoncus urna ut porttitor dictum. Phasellus auctor porta metus, vel lacinia justo luctus ut. Donec consequat tortor odio, at pharetra ipsum ornare quis. Vestibulum lectus nunc, imperdiet sit amet felis id, elementum porta risus. Maecenas ornare arcu sit amet erat aliquam, eget pharetra urna pellentesque. Aenean placerat ex quis augue molestie, ac ornare augue blandit. Mauris nec erat nec massa luctus interdum.
-    </h2><br>
-    <hr><br>
+    Fly with the spirit and pride of the Filipino spirit, and the spirituality and integrity of the Salesian mission.<br><br>
+    Here at Salesian Airlines, we are dedicated to serving the best for our passengers, regardless of the background. Our main values are about empowering transparency and integrity, while keeping the satisfaction of our passengers well above the ceiling, along with sustaining the beauty of our environment with our methods.
+    </h2><br><br>
     <div>
-      <img src="https://airport-world.com/wp-content/uploads/2020/05/heathrow_17581964772373-2.jpg" class="img2">
+      <img src="img/relief.jpg" class="img2">
     </div>
-    <h2><span>Bullet List</span></h2>
+    <h2><span>From Missionaries to the Filipino Population</span><br></h2><h3>
+    Starting out as an air transport service for Salesian Missionaries to spread the Salesian love of Don Bosco to several places here in the Philippines, Salesian Airlines has moved up to commit to serving the Filipino people by providing sky services for those who requires so. <br><br> Yet, we still keep our roots by continuing our missionary branch of Salesian Airlines, the Salesian Airlines Missionary Fleet (SAMF).<br><br>
+    <br></h3><h1><span>Explore the Philippines with our industry-standard aircrafts</span></h1>
+    <hr><br><h2 style="text-align: center;">Perhaps you wanna go to...</h2>
+    <div class="gallery-image">
+    <div class="img-box">
+      <img src="img/boracay.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The White Beaches of Boracay?</p>
+          <p class="opacity-low">Aklan</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="img/elnido.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The View of El Nido?</p>
+          <p class="opacity-low">Palawan</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="img/bohol.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Chocolate Hills of Bohol?</p>
+          <p class="opacity-low">Bohol</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="img/iloilo.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Villanueva Building in Iloilo City?</p>
+          <p class="opacity-low">Iloilo</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="img/siquijor.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Waters of Lugnason Falls?</p>
+          <p class="opacity-low">Siquijor</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="img/ambasing.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Terraces of Ambasing, Sagada?</p>
+          <p class="opacity-low">Mountain Province</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="img/vigan.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Historical Buildings of Vigan?</p>
+          <p class="opacity-low">Ilocus Sur</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="img/davao.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>The Resorts of Davao City?</p>
+          <p class="opacity-low">Davao</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <style type="text/css">
+    .heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  border: black solid 3px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+</style>
+    </section>
+    <div>
+      <img src="img/airbus.png" class="img3">
+    </div>
+    <h2><span>Going NEO: Salesian Airlines' Commitment to Sustainability</span></h2>
+    <h2>At Salesian Airlines, we're committed to minimizing our environmental impact. As part of this ongoing effort, we're proud to announce that we're upgrading our fleet by introducing the new A320neo family of aircraft from Airbus. These fuel-efficient planes will replace our older models, enabling us to reduce our carbon footprint further while continuing to provide safe and comfortable air travel for our customers.<br><span>Current Commercial Fleet (2023)</span></h2>
     <div class="list">
       <ul>
-        <h3>
-        <li>Manila</li>
-        <li>Clark</li>
-        <li>Cebu</li>
-        <li>Davao</li>
-        <li>Palawan</li>
-        <li>Boracay</li>
-        <li>Iloilo</li>
-        </h3>
+        <h2>
+        <li>Airbus A319neo</li>
+        <li>Airbus A320neo</li>
+        <li>Airbus A321neo</li>
+        </h2>
+      </ul>
+    </div> 
+    <div>
+      <img src="img/cessna.png" class="img4">
+    </div>
+    <h2><span>Keeping the Salesian Mission Alive</span></h2>
+    <h2>At Salesian Airlines, we're proud of our roots as a missionary airliner that provided vital air transport for missionary flights, humanitarian missions, and disaster relief operations. As we expand our commercial services, we remain committed to upholding this legacy by maintaining our original fleet from SDB Flights. This fleet now includes our two new Gulfstream G400 private jets, which are designed for high-speed flights to deliver urgent assistance to those in need. With this addition to our fleet, we're reaffirming our dedication to upholding the Salesian mission of leading young people to Christ and helping out those in need with the true Bayanihan spirit of the Filipinos.<br><span>Current Missionary Fleet (2023)</span></h2>
+    <div class="list">
+      <ul>
+        <h2>
+        <li>Cessna 172 Skyhawk</li>
+        <li>Cessna 208 Caravan</li>
+        <li>Gulfstream G400</li>
+        </h2>
       </ul>
     </div><br>
-    <hr><br>
-    <h2><span>More Text</span></h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac finibus nisi, pulvinar blandit nisi. Nullam sit amet consectetur dui, id laoreet nibh. Sed et massa dui. Etiam sit amet magna in neque interdum lobortis eget eu ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla rutrum venenatis urna in euismod. Vivamus rhoncus, ante vitae consequat fermentum, elit diam dignissim lorem, eget sodales magna nunc eget quam. Vivamus sit amet odio venenatis lorem aliquet aliquam. Vestibulum eu finibus quam, vitae eleifend elit. Maecenas sed viverra eros. Sed lacinia, justo id pellentesque fringilla, urna turpis elementum ex, sit amet mattis turpis nulla vel eros. Donec euismod elit id leo congue vulputate. Nulla vel arcu quis sapien vulputate varius ac nec nisi. Proin a iaculis lacus.<br>
-    <div>
-      <img src="https://img.freepik.com/free-photo/tropical-beach_74190-188.jpg" class="img3">
-    </div><br>Vestibulum rhoncus urna ut porttitor dictum. Phasellus auctor porta metus, vel lacinia justo luctus ut. Donec consequat tortor odio, at pharetra ipsum ornare quis. Vestibulum lectus nunc, imperdiet sit amet felis id, elementum porta risus. Maecenas ornare arcu sit amet erat aliquam, eget pharetra urna pellentesque. Aenean placerat ex quis augue molestie, ac ornare augue blandit. Mauris nec erat nec massa luctus interdum.<br><br>Praesent vitae imperdiet purus, vel accumsan eros. Etiam faucibus justo tincidunt, sodales nunc at, pharetra quam. Quisque pretium tellus vel lobortis finibus. Nullam quis condimentum magna, quis sodales velit. Nulla vitae libero et nisi ultrices aliquam sit amet ut ipsum. Mauris urna magna, aliquet ut ex vitae, imperdiet scelerisque sem. Sed tempus commodo maximus. In felis sapien, placerat nec lacus sit amet, ultricies tempor justo. Vestibulum sit amet ultrices neque. Fusce condimentum mauris ac tincidunt sollicitudin. Phasellus fringilla arcu quis ipsum tempor tincidunt. In aliquam metus nec velit volutpat bibendum. Fusce ut aliquam metus, ac consectetur neque. Praesent nulla velit, volutpat ac lacus at, pulvinar porttitor eros.<br><br>Proin et blandit risus. Nam placerat commodo ligula, at ultrices neque egestas at. Etiam ornare est id commodo eleifend. Morbi facilisis ultrices lacus, a ullamcorper velit. Morbi tempor, nisi vitae feugiat luctus, sem neque condimentum nisi, sit amet pulvinar nisi ante vitae odio. Sed arcu elit, mollis a cursus id, hendrerit et felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget felis porta, tristique tellus eu, euismod lacus. Etiam at neque justo. Vivamus maximus bibendum justo sed condimentum.<br><br>Morbi venenatis elit suscipit libero iaculis vestibulum. Nullam rhoncus, quam fringilla maximus hendrerit, felis ligula molestie orci, sed aliquet lorem lorem at sem. Aenean elit turpis, feugiat in placerat sed, ultrices eu lacus. Vivamus ut feugiat arcu. Vivamus maximus sapien sit amet placerat fermentum. Sed lectus dui, tempus fermentum efficitur eu, congue vitae lacus. Donec pretium libero ac justo aliquam, non fringilla augue pretium. Maecenas euismod arcu dolor, ac luctus dui elementum nec. Etiam non metus vel odio pellentesque vestibulum sed ut mauris. Aenean luctus vitae magna ac ultricies. Donec in libero lobortis, luctus enim sed, pharetra mauris. Ut odio augue, scelerisque eget hendrerit ut, sollicitudin sed lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. In at ornare magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque eu velit tincidunt, consequat diam imperdiet, accumsan tellus.</h3>
+    <div class="final">
+      <div class="infinal"><br>
+        <h1>So what are you waiting for? Book a flight now!</h1><a href="index.php#flightdetails"><button class="cta">Let's choose the better wings!</button></a><br><br>
+      </div>
+    </div><br><br><br>
   </div>
   <footer>
     <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="tos.php" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>

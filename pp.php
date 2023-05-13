@@ -66,36 +66,78 @@ LINKED CSS FILE IS IN THE CSS FOLDER
     <h1>our privacy <span>policy.</span></h1>
   </div>
   <div class="content">
-    Privacy Policy <br><br>
----<br><br>
-- This privacy statement explains how we will utilize the personal information you provide to us. It contains explanations of the different sorts of personal information we gather, how we gather it, what we do with it, and the people we might share it with. <br>
-- We want to make sure you know how we treat the personal information we acquire about you when you interact with us and what you need to know about how we use and distribute that information. Also, you can learn about the responsibility we have to secure the information you've entrusted to us, as well as the rights and controls you have over it. <br>
+  Privacy Policy for Salesian Airlines<br>
 <br>
-What does this Privacy Policy Cover? <br>
+Effective Date: May 13, 2023<br>
 <br>
-The Personal Information about you that we obtain, use, or otherwise process in connection with your relationship with Salesian Airlines as a client or prospective customer is covered by this Privacy Policy. By &quot;Personal Information,&quot; we mean facts about you that could be used to identify you, such as your name and contact information, plans for future travel and purchases, and information about how you use our websites. We must gather Personal Information about our customers because we are an international airline. To provide the best possible air travel experience and to keep our customers and workers safe and secure, we must use and share this information. We also need to preserve the Personal Information you supply us with. To gain and keep your trust, we must treat your Personal Information carefully. No matter where in the world you use our products and services, we are committed to protecting your privacy. <br>
+This Privacy Policy describes how Salesian Airlines (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, and protects your personal information when you use our website (www.salesianairlines.ph) and any related services provided by Salesian Airlines. By accessing or using our website and services, you consent to the collection, use, and disclosure of your personal information as described in this Privacy Policy. If you do not agree with any part of this Privacy Policy, please do not use our website or services.<br>
 <br>
-How Do We Collect Personal Information? <br>
+1. Information We Collect<br>
 <br>
-Every time you use our services, we collect personal information about you (whether services are provided directly by us or by other companies or agents acting on our behalf). In order to gather your information and give you the travel experience, goods, and services you desire, we must communicate with other parts of our company as well as with other third parties. This could involve interactions with regard to reservations, shopping, parking, and other transactions, communications and marketing, membership services, applications for jobs, competitions, promotions, and surveys, as well as browsing our websites and using our apps. <br>
-What Types of Personal Information do we collect and process? <br>
+1.1 Personal Information: We may collect personal information that you provide to us when you use our website or services. This may include your name, email address, phone number, postal address, and payment information.<br>
 <br>
-We gather and may handle Personal Information about you, your travel plans, how you use our services, as well as how you use our websites, call centers, and mobile applications (including details about the pages you view). This could include details you give us directly or details we've gathered from details you've given to other sources like Booking Information. <br>
+1.2 Usage Information: We may collect information about how you interact with our website, such as your IP address, browser type, device information, pages visited, and the date and time of your visit.<br>
 <br>
-What do we use your Personal Information for? <br>
+1.3 Cookies and Tracking Technologies: We may use cookies and similar tracking technologies to collect information about your browsing activities on our website. This information helps us improve our website and provide a personalized experience for you.<br>
 <br>
-We collect Personal Information about you so that we can provide you with the products and services you've ordered from us, safely and effectively. We might apply personal data to: <br>
+2. Use of Information<br>
 <br>
--Verify your Contact Details and Identity <br>
--Communicate with you and process your requests <br>
--Respond and manage any inquiries, complaints, and incidents raised with us <br>
--Notify you of Flight Information and flight reminder alerts <br>
--Manage the safety and security of our customers <br>
+2.1 We may use the information we collect for the following purposes:<br>
 <br>
-Who do we share your Personal Information with? <br>
+ - To provide and improve our website and services.<br>
+ - To process and fulfill your bookings and reservations.<br>
+ - To communicate with you regarding your bookings, reservations, or inquiries.<br>
+ - To personalize your experience on our website.<br>
+ - To send you marketing and promotional materials, subject to your preferences and applicable laws.<br>
+ - To protect our rights, property, or safety, and that of our users and the public.<br>
+ - To comply with legal obligations.<br>
 <br>
-We frequently need to disclose your Personal Information with third parties in order to facilitate your travel plans, including other airlines and airport operators, customs and immigration officials, travel agents involved in planning your trip, and our customer loyalty partners. Additionally, we disclose your Personal Information to third parties who provide services to you or to us, such as marketing firms or businesses that offer help at airports. Salesian Airlines is not accountable for how third parties use your information when they have permission to do so for their own purposes, so you should see their privacy policies for more details. Only when we have your consent will we enable third parties outside Salesian Airlines to send you marketing materials. We do not sell Personal Information to third parties.<br>
-
+3. Data Retention<br>
+<br>
+3.1 We will retain your personal information for as long as necessary to fulfill the purposes for which it was collected, unless a longer retention period is required or permitted by law.<br>
+<br>
+4. Information Sharing and Disclosure<br>
+<br>
+4.1 We may share your personal information with the following entities or individuals:<br>
+<br>
+ - Third-party service providers: We may engage trusted third-party service providers to assist us in providing and improving our website and services. These service providers will have access to your personal information only to perform tasks on our behalf and are obligated not to disclose or use it for any other purpose.<br>
+<br>
+ - Compliance with laws: We may disclose your personal information if required by law or in response to valid requests by public authorities (e.g., government agencies or law enforcement).<br>
+<br>
+ - Business transfers: In the event of a merger, acquisition, or sale of assets, your personal information may be transferred to a third party as part of the transaction. We will notify you via email or a prominent notice on our website of any change in ownership or the uses of your personal information.<br>
+<br>
+5. Data Security<br>
+<br>
+5.1 We implement appropriate security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee its absolute security.<br>
+<br>
+6. Your Rights<br>
+<br>
+6.1 You have the right to access, update, correct, and delete your personal information held by us. You may also have the right to object to the processing of your personal information or to restrict its use. To exercise these rights, please contact us using the contact information provided below.<br>
+<br>
+7. Third-Party Links<br>
+<br>
+7.1 Our website may contain links to third-party websites or services that are not owned or controlled by Salesian Airlines. This Privacy Policy applies only to our website, and we are not responsible for the privacy practices of any third-party websites or services. We encourage you to review the privacy practices of those third parties before providing any personal information.<br>
+<br>
+8. Children's Privacy<br>
+<br>
+8.1 Our website and services are not intended for children under the age of 18. We do not knowingly collect or solicit personal information from children under the age of 18. If we become aware that we have collected personal information from a child under the age of 18 without parental consent, we will take steps to promptly delete that information.<br>
+<br>
+9. Changes to this Privacy Policy<br>
+<br>
+9.1 We may update this Privacy Policy from time to time to reflect changes in our practices or legal obligations. We will notify you of any material changes by posting the updated Privacy Policy on our website or by sending you an email notification. Your continued use of our website and services after the effective date of the revised Privacy Policy constitutes your acceptance of the changes.<br>
+<br>
+10. Contact Us<br>
+<br>
+10.1 If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:<br>
+<br>
+Email: customercare@salesianairlines.com<br>
+Phone: +63 895 250 9245<br>
+<br>
+We will do our best to address your inquiries and resolve any concerns you may have.<br>
+<br>
+By using our website and services, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your personal information as described herein.<br>
+<br>
+Last Updated: May 13, 2023<br>
   </div>
   <footer>
     <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy policy</a>&emsp;&emsp;&emsp;&emsp;<a href="tos.php" class="footer">terms of service</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php#contact" class="footer">contact us</a>&emsp;&emsp;&emsp;&emsp;<a href="faq.php" class="footer">help and faq</a><br>&copy; Copyright 2023 Salesian Airlines<h4>
