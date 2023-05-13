@@ -156,6 +156,9 @@ label, input{
 .typeflight{
   margin-left: -43%;
 }
+li{
+  color: black;
+}
 
   </style>
   <h1 class="where">now, where <span>to?</span></h1>
@@ -173,20 +176,84 @@ label, input{
       <label for="roundtrip" class="typeflight">Round-trip</label><br>
 </div>
 <div class="form-group">
-      <label for="from">From:</label>
-        <select id="from" name="from" class="input">
-          <option value="Manila">Manila</option>
-          <option value="Clark">Clark</option>
-          <option value="Cebu ">Cebu</option>
-          <option value="Davao">Davao</option>
-        </select>
-      <label for="To" >To:</label>
-        <select id="to" name="to" class="input">
-          <option value="Manila">Manila</option>
-          <option value="Clark">Clark</option>
-          <option value="Cebu">Cebu</option>
-          <option value="Davao">Davao</option>
-        </select><br>
+<label for="from">From:</label>
+<select id="from" name="from" class="input">
+  <option value="Bacolod">Bacolod</option>
+  <option value="Bohol">Bohol</option>
+  <option value="Boracay">Boracay</option>
+  <option value="Butuan">Butuan</option>
+  <option value="Cagayan">Cagayan de Oro</option>
+  <option value="Calbayog">Calbayog</option>
+  <option value="Camiguin">Camiguin</option>
+  <option value="Cebu ">Cebu</option>
+  <option value="Clark">Clark</option>
+  <option value="Coron">Coron</option>
+  <option value="Cotabato">Cotabato</option>
+  <option value="Davao">Davao</option>
+  <option value="Dipolog">Dipolog</option>
+  <option value="Dumaguete">Dumaguete</option>
+  <option value="Santos">General Santos</option>
+  <option value="Iloilo">Iloilo</option>
+  <option value="Kalibo">Kalibo</option>
+  <option value="Laoag">Laoag</option>
+  <option value="Legazpi">Legazpi</option>
+  <option value="Manila">Manila</option>
+  <option value="Masbate">Masbate</option>
+  <option value="Naga">Naga</option>
+  <option value="Ozamiz">Ozamiz</option>
+  <option value="Pagadian">Pagadian</option>
+  <option value="Pagudpud">Pagudpud</option>
+  <option value="Puerto">Puerto Princesa</option>
+  <option value="Roxas">Roxas</option>
+  <option value="SanJose">San Jose</option>
+  <option value="Siargao">Siargao</option>
+  <option value="Siquijor">Siquijor</option>
+  <option value="Surigao">Surigao</option>
+  <option value="Tacloban">Tacloban</option>
+  <option value="TawiTawi">Tawi-Tawi</option>
+  <option value="Tuguegarao">Tuguegarao</option>
+  <option value="Virac">Virac</option>
+  <option value="Zamboanga">Zamboanga</option>
+</select>
+<label for="to">To:</label>
+<select id="to" name="to" class="input">
+<option value="Bacolod">Bacolod</option>
+  <option value="Bohol">Bohol</option>
+  <option value="Boracay">Boracay</option>
+  <option value="Butuan">Butuan</option>
+  <option value="Cagayan">Cagayan de Oro</option>
+  <option value="Calbayog">Calbayog</option>
+  <option value="Camiguin">Camiguin</option>
+  <option value="Cebu ">Cebu</option>
+  <option value="Clark">Clark</option>
+  <option value="Coron">Coron</option>
+  <option value="Cotabato">Cotabato</option>
+  <option value="Davao">Davao</option>
+  <option value="Dipolog">Dipolog</option>
+  <option value="Dumaguete">Dumaguete</option>
+  <option value="Santos">General Santos</option>
+  <option value="Iloilo">Iloilo</option>
+  <option value="Kalibo">Kalibo</option>
+  <option value="Laoag">Laoag</option>
+  <option value="Legazpi">Legazpi</option>
+  <option value="Manila">Manila</option>
+  <option value="Masbate">Masbate</option>
+  <option value="Naga">Naga</option>
+  <option value="Ozamiz">Ozamiz</option>
+  <option value="Pagadian">Pagadian</option>
+  <option value="Pagudpud">Pagudpud</option>
+  <option value="Puerto">Puerto Princesa</option>
+  <option value="Roxas">Roxas</option>
+  <option value="SanJose">San Jose</option>
+  <option value="Siargao">Siargao</option>
+  <option value="Siquijor">Siquijor</option>
+  <option value="Surigao">Surigao</option>
+  <option value="Tacloban">Tacloban</option>
+  <option value="TawiTawi">Tawi-Tawi</option>
+  <option value="Tuguegarao">Tuguegarao</option>
+  <option value="Virac">Virac</option>
+  <option value="Zamboanga">Zamboanga</option>
+</select>
 </div>
 <div class="form-group">
       <label for="departure">Departure:</label><br>
@@ -229,9 +296,18 @@ label, input{
             return false;
           }
 
-          return true; // Move the return true statement after the date validation code
+          var from = document.getElementById("from").value;
+          var to = document.getElementById("to").value;
+
+          if (from === to) {
+            alert("From and to destinations cannot be the same.");
+            return false;
+          }
+
+          return true;
         }
-      </script>
+</script>
+
 
 </div>
 <div class="form-group">
