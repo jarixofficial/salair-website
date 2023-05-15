@@ -7,9 +7,9 @@ nav {
   height: 80px;
   width: 100%;
   position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 10000;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
 }
 nav .logo {
   margin-left: 20px;
@@ -39,7 +39,7 @@ nav ul {
   position: absolute;
   top: 27px;
   margin-left: 250px;
-  white-space: nowrap
+  white-space: nowrap;
 }
 nav ul li {
   margin-left: 20%;

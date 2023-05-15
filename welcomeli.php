@@ -39,29 +39,30 @@
 <body>
 </body>
 <?php
-$host="localhost";
-$user="root";
-$pass="";
-$dbname="flightinfo";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "flightinfo";
 
-$con=mysqli_connect($host,$user,$pass,$dbname);
-    $email=$_POST['email'];
-    $pass=$_POST['password'];
+$con = mysqli_connect($host, $user, $pass, $dbname);
+$email = $_POST['email'];
+$pass = $_POST['password'];
 
-    $email=stripcslashes($email);
-    $pass=stripcslashes($pass);
-    $email=mysqli_real_escape_string($con,$email);
-    $pass=mysqli_real_escape_string($con,$pass);
+$email = stripcslashes($email);
+$pass = stripcslashes($pass);
+$email = mysqli_real_escape_string($con, $email);
+$pass = mysqli_real_escape_string($con, $pass);
 
-    $sql="select * from signup where email ='$email'and pass ='$pass'";
-    $result=mysqli_query($con,$sql);
-    $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
-    $count=mysqli_num_rows($result);
+$sql = "select * from signup where email ='$email'and pass ='$pass'";
+$result = mysqli_query($con, $sql);
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+$count = mysqli_num_rows($result);
 
-    if($count==1){
-        include("indexlogged.php");
-    }else{
-        echo "<br><br><br><br><br><h1 style='color: white; text-align: center;' class='top'>login <span>failed.</span></h1>";
-    }
+if ($count == 1) {
+  include("indexlogged.php");
+} else {
+  echo "<br><br><br><br><br><h1 style='color: white; text-align: center;' class='top'>login <span>failed.</span></h1>";
+}
 ?>
+
 </html>

@@ -99,20 +99,21 @@ LINKED CSS FILE IS IN THE CSS FOLDER
     <h1>passenger<span> details.</span></h1>
   </div>
   <div class="content">
-  <center><h3>Fill out every form for every passenger. E-mail and phone number not required.</h3>
+    <center>
+      <h3>Fill out every form for every passenger. E-mail and phone number not required.</h3>
     </center>
-  <form class="tab" method="POST" action="payment.php">
-  <script>
-  function duplicateForm() {
-  var urlParams = new URLSearchParams(window.location.search);
-  var num1 = parseInt(urlParams.get('apax'));
-  var num2 = parseInt(urlParams.get('cpax'));
-  var num3 = parseInt(urlParams.get('ipax'));
-  var sum = num1 + num2 + num3;
+    <form class="tab" method="POST" action="payment.php">
+      <script>
+        function duplicateForm() {
+          var urlParams = new URLSearchParams(window.location.search);
+          var num1 = parseInt(urlParams.get('apax'));
+          var num2 = parseInt(urlParams.get('cpax'));
+          var num3 = parseInt(urlParams.get('ipax'));
+          var sum = num1 + num2 + num3;
 
-  for (var i = 0; i < sum; i++) {
-    var form = document.createElement('div');
-    form.innerHTML = `
+          for (var i = 0; i < sum; i++) {
+            var form = document.createElement('div');
+            form.innerHTML = `
     <h2>Passenger ${i + 1}</h2><br>
     <label for="name${i}">Name:</label><br>
     <input type="text" id="name${i}" name="name${i}" required placeholder="Enter the passenger's name..."><br><br>
@@ -133,34 +134,34 @@ LINKED CSS FILE IS IN THE CSS FOLDER
     <label for="email${i}">Email:</label><br>
     <input type="email" id="email${i}" name="email${i}" placeholder="Enter the passenger's e-mail..."><br><br>
     `;
-    document.getElementById('formContainer').appendChild(form);
-  }
+            document.getElementById('formContainer').appendChild(form);
+          }
 
-  document.getElementsByClassName('tab')[0].style.display = "block";
-}
+          document.getElementsByClassName('tab')[0].style.display = "block";
+        }
 
-window.addEventListener('DOMContentLoaded', function () {
-  duplicateForm();
-  document.getElementById("defaultOpen").click();
-});
-</script>
-    <div id="formContainer"></div>
+        window.addEventListener('DOMContentLoaded', function () {
+          duplicateForm();
+          document.getElementById("defaultOpen").click();
+        });
+      </script>
+      <div id="formContainer"></div>
 
-    <div id="tabNavigation">
-      <?php
-      $num1 = isset($_GET['num1']) ? $_GET['num1'] : 0;
-      $num2 = isset($_GET['num2']) ? $_GET['num2'] : 0;
-      $num3 = isset($_GET['num3']) ? $_GET['num3'] : 0;
-      $sum = $num1 + $num2 + $num3;
+      <div id="tabNavigation">
+        <?php
+        $num1 = isset($_GET['num1']) ? $_GET['num1'] : 0;
+        $num2 = isset($_GET['num2']) ? $_GET['num2'] : 0;
+        $num3 = isset($_GET['num3']) ? $_GET['num3'] : 0;
+        $sum = $num1 + $num2 + $num3;
 
-      for ($i = 1; $i <= $sum; $i++) {
-        echo '<button class="tablink" onclick="openTab(event, \'Form' . $i . '\')">Form ' . $i . '</button>';
-      }
-      ?>
-    </div>
-    
-<input type="submit" name="Submit" class="submit">
-</form>
+        for ($i = 1; $i <= $sum; $i++) {
+          echo '<button class="tablink" onclick="openTab(event, \'Form' . $i . '\')">Form ' . $i . '</button>';
+        }
+        ?>
+      </div>
+
+      <input type="submit" name="Submit" class="submit">
+    </form>
   </div>
   <footer>
     <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy
@@ -171,38 +172,39 @@ window.addEventListener('DOMContentLoaded', function () {
   </footer>
 </body>
 <?php
-  $host = 'localhost';
-  $user = 'root';
-  $pass = '';
-  $dbname = 'flightinfo';
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$dbname = 'flightinfo';
 
-  // Create a new PDO instance
-  try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  } catch (PDOException $e) {
-    die("Error: " . $e->getMessage());
-  }
+// Create a new PDO instance
+try {
+  $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+  die("Error: " . $e->getMessage());
+}
 
-  // Prepare and execute the SQL query to insert the form data into the "booking" table
-  try {
-    $stmt = $pdo->prepare("INSERT INTO booking (Flight, fFrom, fTo, Departure, fReturn, aPax, cPax, iPax)
+// Prepare and execute the SQL query to insert the form data into the "booking" table
+try {
+  $stmt = $pdo->prepare("INSERT INTO booking (Flight, fFrom, fTo, Departure, fReturn, aPax, cPax, iPax)
                            VALUES (:flight, :from, :to, :departure, :return, :apax, :cpax, :ipax)");
 
-    $stmt->bindParam(':flight', $_GET['flight']);
-    $stmt->bindParam(':from', $_GET['from']);
-    $stmt->bindParam(':to', $_GET['to']);
-    $stmt->bindParam(':departure', $_GET['departure']);
-    $stmt->bindParam(':return', $_GET['return']);
-    $stmt->bindParam(':apax', $_GET['apax']);
-    $stmt->bindParam(':cpax', $_GET['cpax']);
-    $stmt->bindParam(':ipax', $_GET['ipax']);
+  $stmt->bindParam(':flight', $_GET['flight']);
+  $stmt->bindParam(':from', $_GET['from']);
+  $stmt->bindParam(':to', $_GET['to']);
+  $stmt->bindParam(':departure', $_GET['departure']);
+  $stmt->bindParam(':return', $_GET['return']);
+  $stmt->bindParam(':apax', $_GET['apax']);
+  $stmt->bindParam(':cpax', $_GET['cpax']);
+  $stmt->bindParam(':ipax', $_GET['ipax']);
 
-    $stmt->execute();
+  $stmt->execute();
 
-  } catch (PDOException $e) {
-    die("Error: " . $e->getMessage());
-  }
-  
-  ?>
+} catch (PDOException $e) {
+  die("Error: " . $e->getMessage());
+}
+
+?>
+
 </html>

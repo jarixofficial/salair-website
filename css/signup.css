@@ -1,15 +1,17 @@
-.intro{
+.intro {
   color: white;
   text-align: center;
   margin-top: 6%;
   font-size: 64px;
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.plane{
+.plane {
   width: 50px;
   color: white;
 }
-.form{
+.form {
   color: black;
   text-align: center;
   margin-top: 1%;
@@ -22,38 +24,40 @@
   transition: 0.3s;
   border: grey solid 1px;
 }
-.form:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.form:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   margin-top: 0.8%;
   transition: 0.3s;
 }
-form{
+form {
   text-align: left;
   padding-left: 10%;
 }
-input{
+input {
   border: 0;
   border-bottom: 2px solid;
   width: 90%;
   transition: 0.3s;
 }
-input:hover{
+input:hover {
   border-color: gold;
 }
-input:focus{
+input:focus {
   outline: none;
   border: 0;
-  border-bottom: 2px solid  ;
+  border-bottom: 2px solid;
   transition: 0.3s;
   border-color: gold;
 }
-.new{
+.new {
   margin-top: 7%;
 }
-.submit{
+.submit {
   transition: 0.3s;
 }
-.submit:hover{
+.submit:hover {
   cursor: pointer;
   font-size: 120%;
   transition: 0.3s;

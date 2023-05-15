@@ -1,25 +1,27 @@
-.top{
+.top {
   text-align: center;
   color: white;
   font-size: 48px;
   margin-top: 5%;
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-span{
+span {
   color: gold;
 }
-ul li{
+ul li {
   margin-left: 5px;
 }
-ul.list{
+ul.list {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
 }
-.list{
+.list {
   list-style-position: inside;
 }
-.content{
+.content {
   text-align: justify;
   background-color: white;
   border-radius: 75px;
@@ -29,15 +31,17 @@ ul.list{
   height: 100%;
   transition: 0.3s;
 }
-.content:hover{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.content:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   margin-top: 4.8%;
   transition: 0.3s;
 }
-hr{
+hr {
   border: 2px solid gold;
 }
-.img3{
+.img3 {
   width: 350px;
   height: auto;
   float: left;
@@ -47,7 +51,7 @@ hr{
   border-radius: 20px;
   border: black solid 3px;
 }
-.img2{
+.img2 {
   width: 450px;
   height: auto;
   float: right;

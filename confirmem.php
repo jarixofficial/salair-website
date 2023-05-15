@@ -54,7 +54,8 @@
     </div>
   </nav>
   </div><br><br><br><br><br><br>
-  <h1 class="top">flight booked! enjoy your flight :)</h1> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1 class="top">flight booked! enjoy your flight :)</h1>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <footer>
     <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy
         policy</a>&emsp;&emsp;&emsp;&emsp;<a href="tos.php" class="footer">terms of
@@ -64,30 +65,31 @@
   </footer>
 </body>
 <?php
-$host ="localhost";
-$user ="root"; 
-$pass ="";
-$dbname="flightinfo";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "flightinfo";
 
 $conn = mysqli_connect($host, $user, $pass, $dbname);
-	if (isset($_POST["submit"])) {
+if (isset($_POST["submit"])) {
 
-			$payment = $_POST['Payment']; 
-			$name = $_POST['name'];
-      $password = $_POST['pass'];
-      $phonemail = $_POST['phonemail'];
-			$adr1 = $_POST['address'];
-			$adr2 = $_POST['address2'];
-			$zip = $_POST['zipCode'];
+  $payment = $_POST['Payment'];
+  $name = $_POST['name'];
+  $password = $_POST['pass'];
+  $phonemail = $_POST['phonemail'];
+  $adr1 = $_POST['address'];
+  $adr2 = $_POST['address2'];
+  $zip = $_POST['zipCode'];
 
-			$sql ="INSERT INTO paymentem (Payment, Name, Password, PhonEmail, Address, Address2, ZipCode) VALUES ('$payment','$name', '$password', '$phonemail', '$adr1','$adr2', '$zip');";
-		$run =mysqli_query($conn, $sql) or die(mysqli_error());
+  $sql = "INSERT INTO paymentem (Payment, Name, Password, PhonEmail, Address, Address2, ZipCode) VALUES ('$payment','$name', '$password', '$phonemail', '$adr1','$adr2', '$zip');";
+  $run = mysqli_query($conn, $sql) or die(mysqli_error());
 
-			if($run){
-			} else{
-				echo "Form not Submitted";
-			}
+  if ($run) {
+  } else {
+    echo "Form not Submitted";
   }
+}
 mysqli_close($conn);
 ?>
+
 </html>

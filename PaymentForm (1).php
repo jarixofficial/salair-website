@@ -2,34 +2,37 @@
 <html>
 
 <head>
-		<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Payment Form</title>
 	<link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/login.css">
-  <link rel="icon" href="img/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap" rel="stylesheet">
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-		select{
- 	 border: 0;
-	  border-bottom: 2px solid;
- 	 width: 35%;
-	  transition: 0.3s;
-	}
-	select:hover{
-	  border-color: gold;
-	}
-	select:focus{
-  outline: none;
-  border: 0;
-  border-bottom: 2px solid  ;
-  transition: 0.3s;
-  border-color: gold;
-	}
+
+		select {
+			border: 0;
+			border-bottom: 2px solid;
+			width: 35%;
+			transition: 0.3s;
+		}
+
+		select:hover {
+			border-color: gold;
+		}
+
+		select:focus {
+			outline: none;
+			border: 0;
+			border-bottom: 2px solid;
+			transition: 0.3s;
+			border-color: gold;
+		}
 
 		* {
 			box-sizing: border-box;
@@ -239,7 +242,6 @@
 			width: 300px;
 
 		}
-
 	</style>
 </head>
 
