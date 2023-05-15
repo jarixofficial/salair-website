@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,7 +55,7 @@
 		<h1>Log In</h1>
 		<h4>to enjoy a flight once again</h4>
 		<br>
-		<form method="POST" action="welcome.php">
+		<form method="POST" action="welcomeli.php">
 			<label>E-Mail: </label><br>
 			<input type="email" name="email" placeholder="Enter your email..." required><br><br>
 			<label>Password: </label><br>

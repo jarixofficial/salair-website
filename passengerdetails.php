@@ -99,67 +99,51 @@ LINKED CSS FILE IS IN THE CSS FOLDER
     <h1>passenger<span> details.</span></h1>
   </div>
   <div class="content">
+  <center><h3>Fill out every form for every passenger. E-mail and phone number not required.</h3>
+    </center>
+  <form class="tab" method="POST" action="payment.php">
   <script>
   function duplicateForm() {
-    var urlParams = new URLSearchParams(window.location.search);
-    var num1 = parseInt(urlParams.get('apax'));
-    var num2 = parseInt(urlParams.get('cpax'));
-    var num3 = parseInt(urlParams.get('ipax'));
-    var sum = num1 + num2 + num3;
+  var urlParams = new URLSearchParams(window.location.search);
+  var num1 = parseInt(urlParams.get('apax'));
+  var num2 = parseInt(urlParams.get('cpax'));
+  var num3 = parseInt(urlParams.get('ipax'));
+  var sum = num1 + num2 + num3;
 
-    for (var i = 0; i < sum; i++) {
-      var form = document.createElement('form');
-      form.innerHTML = `
-      <h2>Passenger ${i + 1}</h2><br>
-      <label for="name${i}">Name:</label><br>
-      <input type="text" id="name${i}" name="name${i}" required placeholder="Enter the passenger's name..."><br><br>
-      
-      <label for="dob${i}">Date of Birth:</label><br>
-      <input type="date" id="dob${i}" name="dob${i}" required placeholder="Enter the passenger's date of birth..."><br><br>
-      
-      <label for="gender${i}">Gender:</label><br>
-      <select id="gender${i}" name="gender${i}" required>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="other">Other</option>
-      </select><br><br>
+  for (var i = 0; i < sum; i++) {
+    var form = document.createElement('div');
+    form.innerHTML = `
+    <h2>Passenger ${i + 1}</h2><br>
+    <label for="name${i}">Name:</label><br>
+    <input type="text" id="name${i}" name="name${i}" required placeholder="Enter the passenger's name..."><br><br>
+    
+    <label for="dob${i}">Date of Birth:</label><br>
+    <input type="date" id="dob${i}" name="dob${i}" required placeholder="Enter the passenger's date of birth..."><br><br>
+    
+    <label for="gender${i}">Gender:</label><br>
+    <select id="gender${i}" name="gender${i}" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
 
-      <label for="phone${i}">Phone Number:</label><br>
-      <input type="tel" id="phone${i}" name="phone${i}" placeholder="Enter the passenger's phone number..."><br><br>
-      
-      <label for="email${i}">Email:</label><br>
-      <input type="email" id="email${i}" name="email${i}" placeholder="Enter the passenger's e-mail..."><br><br>
-      `;
-
-      form.className = "tab";
-      form.method = "POST";
-      form.action = "PaymentForm.php";
-
-      document.getElementById('formContainer').appendChild(form);
-    }
-
-    var submitContainer = document.createElement('div');
-    submitContainer.style.textAlign = "center";
-
-    var submitButton = document.createElement('input');
-    submitButton.type = "submit";
-    submitButton.value = "Submit All Forms";
-    submitButton.className = "submit";
-
-    submitContainer.appendChild(submitButton);
-
-    document.getElementById('formContainer').appendChild(submitContainer);
-
-    document.getElementsByClassName('tab')[0].style.display = "block";
+    <label for="phone${i}">Phone Number:</label><br>
+    <input type="tel" id="phone${i}" name="phone${i}" placeholder="Enter the passenger's phone number..."><br><br>
+    
+    <label for="email${i}">Email:</label><br>
+    <input type="email" id="email${i}" name="email${i}" placeholder="Enter the passenger's e-mail..."><br><br>
+    `;
+    document.getElementById('formContainer').appendChild(form);
   }
 
-  window.addEventListener('DOMContentLoaded', function () {
-    duplicateForm();
-    document.getElementById("defaultOpen").click();
-  });
+  document.getElementsByClassName('tab')[0].style.display = "block";
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+  duplicateForm();
+  document.getElementById("defaultOpen").click();
+});
 </script>
-    <center><h3>Fill out every form for every passenger. E-mail and phone number not required.</h3>
-    </center>
     <div id="formContainer"></div>
 
     <div id="tabNavigation">
@@ -174,6 +158,9 @@ LINKED CSS FILE IS IN THE CSS FOLDER
       }
       ?>
     </div>
+    
+<input type="submit" name="Submit" class="submit">
+</form>
   </div>
   <footer>
     <h4><em>"choose the better wings!"</em><br><a href="pp.php" class="footer">privacy

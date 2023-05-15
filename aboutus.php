@@ -128,7 +128,7 @@ YOU CAN INCREASE THE FONT SIZE TO MAKE THE PAGE MORE LOADED (hehe)
         had a massive boost in popularity and we were now recognized by the Civil Aviation Authority of the Philippines.
         We slowly started to expand to larger plane models, moving out of Cessna and becoming a customer of Airbus. We
         had a rapid increase in profit and popularity through 2016-2019 and we were recognized as a popular low-cost
-        carrier airline and an alternative to Cebu Pacific. Everything was running smoothly until in 2020, the COVID-19
+        carrier airline and an alternative to other commercial airlines. Everything was running smoothly until in 2020, the COVID-19
         pandemic run rampant and we had to temporarily shut down our services.
       </h3><br><br>
       <h2><span>What's Next?</span></h2>

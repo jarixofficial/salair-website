@@ -37,51 +37,31 @@
 </head>
 
 <body>
-  <nav>
-    <div class="logo">
-      <img src="img/logowhite.svg" alt="Logo">
-    </div>
-    <div class="logocol">
-      <a href="index.php"><img src="img/logocolor.svg" alt="Logo Colored" class="logocolor"></a>
-    </div>
-    <ul>
-      <li><a href="index.php#flightdetails">book a flight</a></li>
-      <li><a href="travelinfo.php">travel info</a></li>
-      <li><a href="aboutus.php">about us</a></li>
-      <li><a href="login.php">login</a></li>
-    </ul> 
-    <div class="help">
-      <a href="faq.php"><img src="img/icons/help.svg"></a>
-    </div>
-  </nav>
-  </div>
-  <h1>welcome to <span>salesian airlines.</span> :)</h1>
 </body>
 <?php
-$host ="localhost";
-$user ="root"; 
-$pass ="";
+$host="localhost";
+$user="root";
+$pass="";
 $dbname="flightinfo";
 
-$conn = mysqli_connect($host, $user, $pass, $dbname);
-	if (isset($_POST["submit"])) {
+$con=mysqli_connect($host,$user,$pass,$dbname);
+    $email=$_POST['email'];
+    $pass=$_POST['password'];
 
-			$fname = $_POST['fname']; 
-			$lname = $_POST['lname']; 
-			$email = $_POST['email']; 
-			$pass = $_POST['password']; 
-			$cpass = $_POST['confirm_password'];
+    $email=stripcslashes($email);
+    $pass=stripcslashes($pass);
+    $email=mysqli_real_escape_string($con,$email);
+    $pass=mysqli_real_escape_string($con,$pass);
 
-			$sql ="INSERT INTO signup (fname, lname, email, pass, cpass) VALUES ('$fname','$lname', '$email', '$pass','$cpass');";
-		$run =mysqli_query($conn, $sql) or die(mysqli_error());
+    $sql="select * from signup where email ='$email'and pass ='$pass'";
+    $result=mysqli_query($con,$sql);
+    $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+    $count=mysqli_num_rows($result);
 
-			if($run){
-				echo "Form Submitted Successfully";
-			} else{
-				echo "Form not Submitted";
-			}
-  }
-mysqli_close($conn);
+    if($count==1){
+        include("indexlogged.php");
+    }else{
+        echo "<br><br><br><br><br><h1 style='color: white; text-align: center;' class='top'>login <span>failed.</span></h1>";
+    }
 ?>
-
 </html>
